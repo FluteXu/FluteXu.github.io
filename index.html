@@ -146,7 +146,7 @@
           <tr>
             <td width="40%" valign="top" align="center"><img src="images/miccai_node21.png" width=200px></td>
             <td width="60%" valign="top" align="top">
-              <p><a id="URETHRA">
+              <p><a id="NODE21">
                   <heading>Trans-QWin-Bag: A Transfer Learning and Quantile Window Bagging 
                     Assisted Object Detection Framework for Chest X-ray (CXR) Nodule Detection.</heading>
                 </a><br>
@@ -190,6 +190,40 @@
                     post-processing step specifically designed for the tubular urethra structure. The segmentation
                     performance is consistent with the need for online and offline urethra dose reduction in prostate
                     radiotherapy.</i></p>
+
+              </div>
+            </td>
+          </tr>
+          <tr>
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
+          <tr>
+            <td width="40%" valign="top" align="center"><img src="images/panel_psma.png" width=200px></td>
+            <td width="60%" valign="top" align="top">
+              <p><a id="PSMA">
+                  <heading>Mask R-CNN Assisted 2.5D Object Detection Pipeline of
+                68Ga-PSMA-11 PET/CT-positive Metastatic Pelvic Lymph Node After Radical Prostatectomy.</heading>
+                </a><br>
+                <strong>Di Xu</strong>, Ting Martin Ma, Minsong Cao, Amar U. Kishan, Nicholas G. Nickols, Fabien Scalzo and Ke Sheng<br>
+                <strong>This is the solution ranking #3 on the NODE21 MICCAI challenge</strong>
+              </p>
+
+              <div class="paper" id="psma">
+                <a href="https://github.com/FluteXu/node2021-detection/blob/master/figures/Trans-QWin-Bag.pdf">pdf</a> |
+                <a href="javascript:toggleblock('psma_abs')">abstract</a>
+                <p align="justify"> <i id="psma_abs" style="display: none;">Prostate-specific membrane antigen (PSMA) positron
+                  emission tomography (PET)/ computed tomography (CT) is a novel molecular and functional imaging modality with 
+                  better restaging accuracy over conventional imaging for detecting prostate cancer (PCa) in men suspected of recurrence
+                  after definitive therapy. However, the affordability of PSMA PET can be an issue, while conventional imaging modalities, 
+                  such as CT, are widely available and often used for detecting pelvic lymph node (LN) metastasis in patients suspected of 
+                  recurrence after radical prostatectomy. The purpose of the present study is to develop a method of detecting LN metastasis 
+                  solely based on CT images. We examined 68Ga-PSMA-11 PET/CT images from 88 patients (including 739 PSMA PET/CT-positive 
+                  pelvic LNs) who experienced a biochemical recurrence after radical prostatectomy and presented for salvage radiotherapy 
+                  with PSA <1 ng/mL. Scans were divided into a training set (n=52), a validation set (n=18), and a test set (n=18). Using 
+                  PSMA PET/CT as the ground truth and consensus pelvic LN clinical target volumes (CTV) as search regions, a 2.5D Mask R-CNN based 
+                  object detection framework was trained. The entire framework contained whole slice imaging (WSI) pretrain, masked-out region fine-tune, 
+                  prediction post-processing, and “window bagging”. Our pipeline was able to locate positive pelvic LNs solely based on CT scan without 
+                  additional processing with a sensitivity of 83.33%, specificity of 58.62% out of 196 positive predictive cases. Our tool may aid CT-based 
+                              detection of pelvic LN metastasis and triage patients most likely to benefit from the PSMA PET/CT scan.</i></p>
 
               </div>
             </td>
