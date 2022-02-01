@@ -144,27 +144,24 @@
 
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="15">
           <tr>
-            <td width="40%" valign="top" align="center"><img src="images/urethra.jpeg" width=200px></td>
+            <td width="40%" valign="top" align="center"><img src="images/miccai_node21.png" width=200px></td>
             <td width="60%" valign="top" align="top">
               <p><a id="URETHRA">
-                  <heading>3D nnU-Net Inspired Auto Segmentation Framework of Prostatic Urethra Using MR-Guided
-                    Radiation Therapy (MRgRT) On-Board MRI: an Efficient Approach to Assist Quantification of Dose
-                    Distribution in Prostate Cancer Radiotherapy.</heading>
+                  <heading>Trans-QWin-Bag: A Transfer Learning and Quantile Window Bagging 
+                    Assisted Object Detection Framework for Chest X-ray (CXR) Nodule Detection.</heading>
                 </a><br>
-                <strong>Di Xu</strong>, Tianhang Long and Junbin Gao<br>
-                Submitted to Red Journal
+                <strong>Di Xu</strong>, Fabien Scalzo and Ke Sheng<br>
+                <strong>This is the solution ranking #3 on the NODE21 MICCAI challenge</strong>
               </p>
 
-              <div class="paper" id="urethra">
-                <a href="https://arxiv.org/pdf/1901.10098.pdf">pdf</a> |
+              <div class="paper" id="node21">
+                <a href="https://github.com/FluteXu/node2021-detection/blob/master/figures/Trans-QWin-Bag.pdf">pdf</a> |
                 <a href="javascript:toggleblock('urethra_abs')">abstract</a>
-                <p align="justify"> <i id="urethra_abs" style="display: none;">We present the first Foley-free automated
-                    urethra segmentation
-                    study based on 0.35 T MR images generated during MR guided radiotherapy. The automated segmentation
-                    method is built based on a data-driven deep learning neural network with novel cost functions and a
-                    post-processing step specifically designed for the tubular urethra structure. The segmentation
-                    performance is consistent with the need for online and offline urethra dose reduction in prostate
-                    radiotherapy.</i></p>
+                <p align="justify"> <i id="urethra_abs" style="display: none;">We present the the complete design of
+                  Trans-QWin-Bag workflow includes three stages, the initial pretraining on DeepLesion (full body tumors on CT) and Luna16 (lung tumors on CT) datasets,
+                  the further sub-model transfer learning on our targeted NODE21 (lung nodule on Chest X-ray) dataset, 
+                  and the final one- and two-stage detection network “quantile window bagging” for the optimal achievement of sensitivity. Our workflow
+                  is able to achieve AUC of on 87.36% and FROC(5%),FROC(25%) 60.89%, 50.81% on test set.</i></p>
 
               </div>
             </td>
